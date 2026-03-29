@@ -1,0 +1,52 @@
+/* 1. Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+/* 2. Composants */
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/typeform.css");
+
+/* 3. Styles généraux */
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+  text-align: center;
+  background-color: #f8f6f2;   /* ← fond beige chaud */
+  color: #333333;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Section Latest articles */
+.articles-section {
+  background-color: #f8f6f2;
+  padding: 60px 0;
+}
+
+.articles-section h2 {
+  color: #333333;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.articles-section p {
+  color: #666666;
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  line-height: 1.8;
+}
